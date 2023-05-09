@@ -2,17 +2,148 @@ body {
   background: #333333;
   background: -webkit-linear-gradient(to right, #dd1818, #333333);
   background: linear-gradient(to right, #dd1818, #333333);
+  /* height: 100%; */
+}
+.all {
+  display: flex;
+  flex-direction: column;
 }
 .padre {
   display: flex;
-  width: 100%;
+  width: 100vw;
+  height: 91vh;
 }
+
 .primer-hijo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 40%;
   border: solid white;
-  background-color: #7b7a7a;
+  margin: 10px;
+  background: #ada996;
+  background: -webkit-linear-gradient(
+    to right,
+    #eaeaea,
+    #dbdbdb,
+    #f2f2f2,
+    #ada996
+  );
+  background: linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #ada996);
 }
+.div-uno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 87vh;
+  height: 50vh;
+}
+.div-dos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 87vh;
+  height: 20vh;
+  border: solid white;
+}
+.imagen-maxi {
+  width: 15rem;
+}
+
 .segundo-hijo {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   width: 60%;
   border: solid white;
+  margin: 10px;
+}
+.texto-segundo-hijo {
+  display: flex;
+  width: 100%;
+  height: 25vh;
+  border: solid white;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.fb {
+  display: flex;
+  width: 100%;
+  height: 25vh;
+  border: solid white;
+}
+.contenedor-imagen-fb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vh;
+  border: solid white;
+}
+.contenedor-link-fb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vh;
+  border: solid white;
+}
+
+.ig {
+  display: flex;
+  width: 100%;
+  height: 25vh;
+  border: solid white;
+}
+.contenedor-imagen-ig {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vh;
+  border: solid white;
+}
+.contenedor-link-ig {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vh;
+  border: solid white;
+}
+
+.tw {
+  display: flex;
+  width: 100%;
+  height: 25vh;
+  border: solid white;
+}
+.contenedor-imagen-tw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vh;
+  border: solid white;
+}
+.contenedor-link-tw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vh;
+  border: solid white;
+}
+
+a {
+  color: azure;
+
+  margin-right: 50px;
+}
+@media (max-width: 770px) {
+  .padre {
+    flex-direction: column;
+  }
+  .primer-hijo {
+    width: 89%;
+  }
+  .segundo-hijo {
+    width: 90%;
+  }
 }
