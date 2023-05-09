@@ -1,6 +1,18 @@
-body{
-    background: #333333;
-background: -webkit-linear-gradient(to right, #dd1818, #333333); 
-background: linear-gradient(to right, #dd1818, #333333);
-
+body {
+  background: #333333;
+  background: -webkit-linear-gradient(to right, #dd1818, #333333);
+  background: linear-gradient(to right, #dd1818, #333333);
+}
+.padre {
+  display: flex;
+  width: 100%;
+}
+.primer-hijo {
+  width: 40%;
+  border: solid white;
+  background-color: #7b7a7a;
+}
+.segundo-hijo {
+  width: 60%;
+  border: solid white;
 }
