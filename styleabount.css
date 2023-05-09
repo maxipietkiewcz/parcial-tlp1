@@ -1,0 +1,32 @@
+body {
+  background: #333333;
+  background: -webkit-linear-gradient(to right, #dd1818, #333333);
+  background: linear-gradient(to right, #dd1818, #333333);
+}
+.padre {
+  display: flex;
+  width: 100%;
+}
+.hijos {
+  width: 50%;
+  display: flex;
+}
+.texto {
+  margin: 30px;
+  color: white;
+}
+.imagenes {
+  width: 50%;
+
+  margin: 5px;
+}
+footer {
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin: 10px;
+}
+.imagenes_hijas {
+  margin: 5px;
+  justify-content: center;
+}
