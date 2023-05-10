@@ -30,3 +30,14 @@ footer {
   margin: 5px;
   justify-content: center;
 }
+@media (max-width: 770px) {
+  .padre {
+    flex-direction: column;
+  }
+  .primer-hijo {
+    width: 89%;
+  }
+  .segundo-hijo {
+    width: 90%;
+  }
+}

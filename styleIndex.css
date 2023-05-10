@@ -20,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 40%;
-  border: solid white;
+
   margin: 10px;
   background: #ada996;
   background: -webkit-linear-gradient(
@@ -45,7 +45,6 @@ body {
   align-items: center;
   width: 87vh;
   height: 20vh;
-  border: solid white;
 }
 .imagen-maxi {
   width: 15rem;
@@ -55,15 +54,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  width: 60%;
-  border: solid white;
+  width: 55%;
+
   margin: 10px;
 }
 .texto-segundo-hijo {
   display: flex;
   width: 100%;
   height: 25vh;
-  border: solid white;
+
   color: white;
   justify-content: center;
   align-items: center;
@@ -72,68 +71,59 @@ body {
   display: flex;
   width: 100%;
   height: 25vh;
-  border: solid white;
 }
 .contenedor-imagen-fb {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50vh;
-  border: solid white;
 }
 .contenedor-link-fb {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50vh;
-  border: solid white;
 }
 
 .ig {
   display: flex;
   width: 100%;
   height: 25vh;
-  border: solid white;
 }
 .contenedor-imagen-ig {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50vh;
-  border: solid white;
 }
 .contenedor-link-ig {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50vh;
-  border: solid white;
 }
 
 .tw {
   display: flex;
   width: 100%;
   height: 25vh;
-  border: solid white;
 }
 .contenedor-imagen-tw {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50vh;
-  border: solid white;
 }
 .contenedor-link-tw {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50vh;
-  border: solid white;
 }
 
 a {
   color: azure;
-
+  text-decoration: none;
   margin-right: 50px;
 }
 @media (max-width: 770px) {
