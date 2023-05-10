@@ -11,7 +11,7 @@
  Lo segundo fue la pagina del abount, donde implementé CSS vanilla y Flexbox. Basicamente dividí la main en dos, en donde, por un lado escribí una presentacion de mi persona
  y por el otro, imagenes relacionadas a mi.
  
- Lo tercero, la pagina de Inicio. Cuenta con algo muy simple y creativo que cuenta con mis redes sociales
+ Lo tercero, la pagina de Inicio. Cuenta con algo muy simple y creativo que cuenta con mis redes sociales... seguir
  
  
  hacer responsive el abount
