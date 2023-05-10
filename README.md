@@ -13,7 +13,7 @@
  
  Lo tercero, la pagina de Inicio. Cuenta con algo muy simple,una barra de navegación y mis redes sociales.
  
- Lo ultimo fue la pagina de skills, donde utilicé el sistemas de grillas de boostrap 5 para posicionar el texto y img.png en cada unos de su lugar. /*Utilice atributos como "justify-contect" y "aling-items" "start, center y end"*/
+ Lo ultimo fue la pagina de skills, donde utilicé el sistemas de grillas de boostrap 5 para posicionar el texto y img.png en cada lugar correspondiente. /*Utilice atributos como "justify-contect" y "aling-items" "start, center y end"*/
  
  
 
