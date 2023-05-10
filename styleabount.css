@@ -16,9 +16,27 @@ body {
   color: white;
 }
 .imagenes {
-  width: 50%;
-
+  width: 100%;
   margin: 5px;
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.imagenes_hija {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.imagen-uno {
+}
+.imagen-dos {
+}
+a {
+  color: rgb(122, 115, 115);
+  text-decoration: none;
 }
 footer {
   display: flex;
@@ -26,18 +44,15 @@ footer {
   justify-content: center;
   margin: 10px;
 }
-.imagenes_hijas {
-  margin: 5px;
-  justify-content: center;
-}
-@media (max-width: 770px) {
+@media (max-width: 1166px) {
   .padre {
     flex-direction: column;
   }
-  .primer-hijo {
-    width: 89%;
+  .hijos {
+    width: 100%;
   }
-  .segundo-hijo {
-    width: 90%;
+
+  .imagenes {
+    flex-wrap: wrap;
   }
 }

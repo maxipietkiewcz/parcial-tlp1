@@ -126,6 +126,12 @@ a {
   text-decoration: none;
   margin-right: 50px;
 }
+footer {
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin: 10px;
+}
 @media (max-width: 770px) {
   .padre {
     flex-direction: column;
