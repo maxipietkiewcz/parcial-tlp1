@@ -11,14 +11,13 @@
  Lo segundo fue la pagina del abount, donde implementé CSS vanilla y Flexbox. Basicamente dividí la main en dos, en donde, por un lado escribí una presentacion de mi persona
  y por el otro, imagenes relacionadas a mi.
  
- Lo tercero, la pagina de Inicio. Cuenta con algo muy simple y creativo que cuenta con mis redes sociales... seguir
+ Lo tercero, la pagina de Inicio. Cuenta con algo muy simple,una barra de navegación y mis redes sociales.
+ 
+ Lo ultimo fue la pagina de skills, donde utilicé el sistemas de grillas de boostrap 5 para posicionar el texto y img.png en cada unos de su lugar. /*Utilice atributos como "justify-contect" y "aling-items" "start, center y end"*/
  
  
- hacer responsive el abount
- 
- hipervinculos en las 3 paginas 
- 
- revisar texto de abount
+
+Como tarea final, fue crear el commit de la ultima version de la pagina, fucionar la misma con la rama "main" y hacer el commit final de la página.
  
  
  
